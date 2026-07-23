@@ -80,24 +80,32 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section id="hero" class="relative pt-32 pb-24 md:pt-40 md:pb-32 bg-primary overflow-hidden">
+   <section id="hero" class="relative overflow-hidden bg-primary pt-28 pb-20 md:pt-36 md:pb-28 lg:pt-40 lg:pb-32">
 
-    <!-- Background Image -->
-    <div class="absolute inset-0 bg-cover bg-center opacity-15"
-        style="background-image:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&q=80&w=1920');">
+    <!-- Background -->
+    <div class="absolute inset-0">
+
+        <!-- Replace hero-bg.webp with your own optimized WebP image -->
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image:url('Images/Homecare');">
+        </div>
+
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-primary/85"></div>
+
     </div>
 
     <!-- Decorative Blur -->
-    <div class="absolute -top-40 -right-40 w-96 h-96 bg-secondary rounded-full blur-3xl opacity-20"></div>
-    <div class="absolute bottom-0 left-0 w-80 h-80 bg-white rounded-full blur-3xl opacity-5"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl opacity-5"></div>
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div class="grid lg:grid-cols-12 gap-16 items-center">
+        <div class="grid lg:grid-cols-12 gap-14 items-center">
 
             <!-- Left Content -->
             <div class="lg:col-span-7">
 
+                <!-- Top Badge -->
                 <span
                     class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-secondary text-sm font-semibold tracking-wide">
 
@@ -107,59 +115,66 @@
 
                 </span>
 
-                <h1 class="mt-6 text-4xl md:text-6xl font-extrabold leading-tight text-white">
+                <!-- Heading -->
 
-                    Delivering India's Premium Agricultural Products to Global Markets
+                <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
+
+                    Premium Indian Agricultural Products Exported Worldwide
 
                 </h1>
 
-                <p class="mt-6 text-lg text-gray-300 leading-8">
+                <!-- Description -->
+
+                <p class="mt-6 text-lg leading-8 text-gray-300">
 
                     <strong class="text-white">IFA Universal Exim Private Limited</strong>
-                    specializes in the import, export, trading, processing,
-                    packaging, warehousing and global distribution of premium
-                    agricultural commodities including fresh onions, garlic,
-                    fruits, vegetables, rice, cereals, pulses, spices, herbs,
-                    dry fruits, agricultural machinery, irrigation systems and
-                    packaging solutions.
+                    is a trusted exporter of fresh onions, garlic, fruits,
+                    vegetables, rice, cereals, pulses, spices, herbs, dry fruits,
+                    agricultural machinery, irrigation systems and export
+                    packaging solutions, delivering premium quality products to
+                    customers across international markets.
 
                 </p>
 
-                <!-- Product Highlights -->
+                <!-- Trust Badges -->
 
                 <div class="flex flex-wrap gap-3 mt-8">
 
-                    <span class="px-4 py-2 bg-white/10 rounded-full text-white text-sm">🧅 Fresh Onions</span>
+                    <span class="px-4 py-2 rounded-full bg-white/10 text-white text-sm">
+                        ✅ Export Quality
+                    </span>
 
-                    <span class="px-4 py-2 bg-white/10 rounded-full text-white text-sm">🧄 Garlic</span>
+                    <span class="px-4 py-2 rounded-full bg-white/10 text-white text-sm">
+                        🌍 Worldwide Shipping
+                    </span>
 
-                    <span class="px-4 py-2 bg-white/10 rounded-full text-white text-sm">🌾 Rice & Grains</span>
+                    <span class="px-4 py-2 rounded-full bg-white/10 text-white text-sm">
+                        ✔ Quality Assured
+                    </span>
 
-                    <span class="px-4 py-2 bg-white/10 rounded-full text-white text-sm">🌶 Indian Spices</span>
-
-                    <span class="px-4 py-2 bg-white/10 rounded-full text-white text-sm">🥭 Fruits & Vegetables</span>
-
-                    <span class="px-4 py-2 bg-white/10 rounded-full text-white text-sm">🚜 Farm Machinery</span>
+                    <span class="px-4 py-2 rounded-full bg-white/10 text-white text-sm">
+                        🚚 Reliable Supply Chain
+                    </span>
 
                 </div>
 
-                <!-- CTA -->
+                <!-- CTA Buttons -->
 
                 <div class="flex flex-col sm:flex-row gap-4 mt-10">
 
                     <a href="#products"
-                        class="bg-secondary hover:opacity-90 transition px-8 py-4 rounded-xl font-bold text-white flex items-center justify-center gap-2 shadow-xl">
+                        class="inline-flex items-center justify-center gap-2 bg-secondary hover:opacity-90 transition px-8 py-4 rounded-xl font-bold text-white shadow-xl">
 
-                        Explore Products
+                        Explore Our Products
 
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
 
                     <a href="#contact"
-                        class="border border-white/30 bg-white/5 hover:bg-white/10 transition px-8 py-4 rounded-xl font-bold text-white flex items-center justify-center gap-2">
+                        class="inline-flex items-center justify-center gap-2 border border-white/30 bg-white/5 hover:bg-white/10 transition px-8 py-4 rounded-xl font-bold text-white">
 
-                        Request a Quote
+                        Get Free Export Quote
 
                         <i class="fa-solid fa-paper-plane"></i>
 
@@ -167,32 +182,93 @@
 
                 </div>
 
+                <!-- Statistics -->
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-5 mt-12">
+
+                    <div>
+
+                        <h3 class="text-3xl font-bold text-secondary">
+                            20+
+                        </h3>
+
+                        <p class="text-gray-300 text-sm mt-2">
+                            Export Products
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="text-3xl font-bold text-secondary">
+                            100%
+                        </h3>
+
+                        <p class="text-gray-300 text-sm mt-2">
+                            Quality Focused
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="text-3xl font-bold text-secondary">
+                            Global
+                        </h3>
+
+                        <p class="text-gray-300 text-sm mt-2">
+                            Export Support
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="text-3xl font-bold text-secondary">
+                            24/7
+                        </h3>
+
+                        <p class="text-gray-300 text-sm mt-2">
+                            Customer Support
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
-
-            <!-- Right Side Cards -->
-
+                        <!-- Right Side Cards -->
             <div class="lg:col-span-5">
 
                 <div class="grid grid-cols-2 gap-5">
 
-                    <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6">
+                    <!-- Card 1 -->
+
+                    <div
+                        class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/15 transition duration-300 flex flex-col">
 
                         <i class="fa-solid fa-box-open text-secondary text-3xl mb-4"></i>
 
                         <h3 class="text-white font-bold text-lg">
+
                             Export Products
+
                         </h3>
 
-                        <p class="text-gray-300 text-sm mt-2">
+                        <p class="text-gray-300 text-sm mt-3 leading-6">
 
-                            Fresh Produce, Food Commodities, Spices, Herbs,
-                            Dry Fruits & Agricultural Products.
+                            Fresh onions, garlic, fruits, vegetables,
+                            rice, spices, pulses, herbs and premium
+                            agricultural commodities.
 
                         </p>
 
                     </div>
 
-                    <div class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6">
+                    <!-- Card 2 -->
+
+                    <div
+                        class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/15 transition duration-300 flex flex-col">
 
                         <i class="fa-solid fa-tractor text-secondary text-3xl mb-4"></i>
 
@@ -202,45 +278,96 @@
 
                         </h3>
 
-                        <p class="text-gray-300 text-sm mt-2">
+                        <p class="text-gray-300 text-sm mt-3 leading-6">
 
-                            Agricultural Machinery, Farm Implements,
-                            Irrigation Systems & Modern Equipment.
+                            Agricultural machinery, irrigation systems,
+                            farm equipment and modern farming technology.
 
                         </p>
 
                     </div>
 
+                    <!-- Large Card -->
+
                     <div
-                        class="bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6 col-span-2">
+                        class="col-span-2 bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl p-8 hover:bg-white/15 transition duration-300">
 
-                        <div class="flex justify-between items-center">
+                        <span
+                            class="inline-flex items-center gap-2 text-secondary uppercase tracking-[3px] text-xs font-bold">
 
-                            <div>
+                            <i class="fa-solid fa-globe"></i>
 
-                                <span class="text-secondary text-xs uppercase tracking-[3px] font-bold">
+                            Complete Agricultural Supply Chain
 
-                                    Complete Supply Chain
+                        </span>
+
+                        <h3 class="text-white text-2xl font-bold mt-4 leading-snug">
+
+                            From Farm to Global Markets
+
+                        </h3>
+
+                        <p class="text-gray-300 mt-4 leading-7">
+
+                            We manage sourcing, quality inspection,
+                            grading, processing, export packaging,
+                            warehousing, logistics and international
+                            distribution to deliver premium agricultural
+                            products safely and efficiently worldwide.
+
+                        </p>
+
+                        <!-- Features -->
+
+                        <div class="grid grid-cols-2 gap-4 mt-8">
+
+                            <div class="flex items-center gap-3">
+
+                                <i class="fa-solid fa-check text-secondary"></i>
+
+                                <span class="text-white text-sm">
+
+                                    Quality Inspection
 
                                 </span>
 
-                                <h3 class="text-white text-xl font-bold mt-2">
+                            </div>
 
-                                    Processing • Packaging • Warehousing • Distribution
+                            <div class="flex items-center gap-3">
 
-                                </h3>
+                                <i class="fa-solid fa-check text-secondary"></i>
 
-                                <p class="text-gray-300 text-sm mt-3">
+                                <span class="text-white text-sm">
 
-                                    Delivering reliable agricultural export
-                                    solutions with quality assurance,
-                                    efficient logistics and timely deliveries.
+                                    Export Packaging
 
-                                </p>
+                                </span>
 
                             </div>
 
-                            <i class="fa-solid fa-globe text-secondary text-5xl"></i>
+                            <div class="flex items-center gap-3">
+
+                                <i class="fa-solid fa-check text-secondary"></i>
+
+                                <span class="text-white text-sm">
+
+                                    Global Logistics
+
+                                </span>
+
+                            </div>
+
+                            <div class="flex items-center gap-3">
+
+                                <i class="fa-solid fa-check text-secondary"></i>
+
+                                <span class="text-white text-sm">
+
+                                    Customer Support
+
+                                </span>
+
+                            </div>
 
                         </div>
 
@@ -249,6 +376,25 @@
                 </div>
 
             </div>
+
+        </div>
+
+        <!-- Scroll Indicator -->
+
+        <div class="hidden lg:flex justify-center mt-20 animate-bounce">
+
+            <a href="#about"
+                class="flex flex-col items-center text-white/70 hover:text-secondary transition">
+
+                <span class="text-sm mb-2 tracking-wider">
+
+                    Scroll Down
+
+                </span>
+
+                <i class="fa-solid fa-angles-down text-2xl"></i>
+
+            </a>
 
         </div>
 
@@ -265,7 +411,7 @@
 
             <!-- Image -->
 
-            <div class="relative">
+            <div class="relative mt-10 lg:mt-0">
 
                 <img src="Images/Agricultral.png"
                     alt="IFA Universal Exim Agricultural Export"
@@ -1800,29 +1946,7 @@
         </div>
     </div>
 
-    <!-- Corporate Email -->
-    <div class="flex items-start gap-4">
-        <span class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
-            <i class="fa-solid fa-building text-lg"></i>
-        </span>
-        <div>
-            <h4 class="font-bold text-gray-900">Corporate Email</h4>
-
-            <div class="mt-2 flex items-center gap-2 text-sm text-gray-600">
-                <i class="fa-solid fa-envelope text-primary"></i>
-                <a href="mailto:ifauniversalexim@gmail.com" class="hover:text-primary transition">
-                    ifauniversalexim@gmail.com
-                </a>
-            </div>
-
-            <div class="mt-1 flex items-center gap-2 text-sm text-gray-600">
-                <i class="fa-solid fa-phone text-primary"></i>
-                <a href="tel:+919860728847" class="hover:text-primary transition">
-                    +91 9860728847
-                </a>
-            </div>
-        </div>
-    </div>
+   
 
     <!-- Director 2 -->
     <div class="flex items-start gap-4">
@@ -1847,7 +1971,29 @@
             </div>
         </div>
     </div>
+ <!-- Corporate Email -->
+    <div class="flex items-start gap-4">
+        <span class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
+            <i class="fa-solid fa-building text-lg"></i>
+        </span>
+        <div>
+            <h4 class="font-bold text-gray-900">Corporate Email</h4>
 
+            <div class="mt-2 flex items-center gap-2 text-sm text-gray-600">
+                <i class="fa-solid fa-envelope text-primary"></i>
+                <a href="mailto:ifauniversalexim@gmail.com" class="hover:text-primary transition">
+                    ifauniversalexim@gmail.com
+                </a>
+            </div>
+
+            <div class="mt-1 flex items-center gap-2 text-sm text-gray-600">
+                <i class="fa-solid fa-phone text-primary"></i>
+                <a href="tel:+919860728847" class="hover:text-primary transition">
+                    +91 9860728847
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
                 </div>
 
@@ -2226,29 +2372,48 @@
 
             <!-- Products -->
 
-            <div>
+           <!-- Products -->
+<div>
 
-                <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-6">
-                    Products
-                </h4>
+    <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-6">
+        Products
+    </h4>
 
-                <ul class="space-y-4 text-sm">
+    <ul class="space-y-4 text-sm">
 
-                    <li><a href="products.html" class="hover:text-secondary transition">Fresh Onions</a></li>
+        <li>
+            <a href="index.html#products" class="hover:text-secondary transition">
+                Fresh Onions
+            </a>
+        </li>
 
-                    <li><a href="products.html" class="hover:text-secondary transition">Garlic</a></li>
+        <li>
+            <a href="index.html#products" class="hover:text-secondary transition">
+                Fresh Fruits & Vegetables
+            </a>
+        </li>
 
-                    <li><a href="products.html" class="hover:text-secondary transition">Fresh Fruits & Vegetables</a></li>
+        <li>
+            <a href="index.html#products" class="hover:text-secondary transition">
+                Rice, Grains & Pulses
+            </a>
+        </li>
 
-                    <li><a href="products.html" class="hover:text-secondary transition">Rice, Grains & Pulses</a></li>
+        <li>
+            <a href="index.html#products" class="hover:text-secondary transition">
+                Spices & Dry Fruits
+            </a>
+        </li>
 
-                    <li><a href="products.html" class="hover:text-secondary transition">Spices & Dry Fruits</a></li>
+        <li>
+            <a href="index.html#products" class="hover:text-secondary transition">
+                Agricultural Machinery
+            </a>
+        </li>
 
-                    <li><a href="products.html" class="hover:text-secondary transition">Agricultural Machinery</a></li>
+    </ul>
 
-                </ul>
-
-            </div>
+</div>
                         <!-- Contact -->
             <div>
 
@@ -2321,22 +2486,21 @@
 
                 <div class="grid grid-cols-2 gap-3 mt-8">
 
-                    <a href="mailto:ifauniversalexim@gmail.com"
-                        class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white py-3 rounded-xl font-semibold transition">
+                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ifauniversalexim@gmail.com"
+   target="_blank"
+   class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white py-3 rounded-xl font-semibold transition">
+    <i class="fa-solid fa-envelope"></i>
+    <span>Email</span>
+</a>
+                   <a href="https://wa.me/919860728847?text=Hello%20IFA%20Universal%20Exim,%20I%20am%20interested%20in%20your%20products."
+   target="_blank"
+   rel="noopener noreferrer"
+   class="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold transition">
 
-                        <i class="fa-solid fa-envelope"></i>
-                        Email
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>WhatsApp</span>
 
-                    </a>
-
-                    <a href="https://wa.me/919860728847"
-                        target="_blank"
-                        class="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold transition">
-
-                        <i class="fa-brands fa-whatsapp"></i>
-                        WhatsApp
-
-                    </a>
+</a>
 
                 </div>
 
